@@ -1,0 +1,47 @@
+﻿@model ShoeStoreWebApp.Models.Category
+
+<div class="container mt-5" style="max-width:600px;">
+
+    <div class="card shadow-sm border-0">
+        <div class="card-body p-4">
+
+            <h4 class="fw-bold mb-1">➕ Thêm danh mục</h4>
+            <p class="text-muted mb-4">Tạo danh mục sản phẩm mới</p>
+
+            <form asp-action="Create" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-semibold">
+                        Tên danh mục
+                    </label>
+
+                    <input asp-for="Name"
+                           class="form-control"
+                           placeholder="Nhập tên danh mục..." />
+
+                    <span asp-validation-for="Name"
+                          class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex justify-content-end gap-2 mt-4">
+                    <a asp-action="Index"
+                       class="btn btn-outline-secondary">
+                        ← Quay lại
+                    </a>
+
+                    <button type="submit"
+                            class="btn btn-primary">
+                        💾 Lưu danh mục
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<section class="admin-dashboard">
+
+    <!-- HEADER -->
+    <div class="dashboard-header">
+        <h2>Admin Dashboard</h2>
+        <p>Quản lý toàn bộ hệ thống cửa hàng giày</p>
+    </div>
+
+    <!-- STATS -->
+    <div class="dashboard-stats">
+
+        <div class="stat-card">
+            <h3>Categories</h3>
+            <p class="stat-number">@ViewBag.CategoryCount</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Products</h3>
+            <p class="stat-number">@ViewBag.ProductCount</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Orders</h3>
+            <p class="stat-number">@ViewBag.OrderCount</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Users</h3>
+            <p class="stat-number">@ViewBag.UserCount</p>
+        </div>
+
+    </div>
+
+    <!-- QUICK ACTION -->
+    <div class="dashboard-actions">
+        <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="dashboard-btn">
+            Manage Categories
+        </a>
+
+        <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="dashboard-btn">
+            Manage Products
+        </a>
+
+        <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="dashboard-btn">
+            Manage Orders
+        </a>
+    </div>
+
+</section>

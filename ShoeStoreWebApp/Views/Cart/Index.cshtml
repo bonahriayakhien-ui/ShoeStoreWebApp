@@ -1,0 +1,105 @@
+﻿@model List<ShoeStoreWebApp.Models.CartItem>
+
+<section class="cart-wrapper">
+
+    <h2 class="cart-title">🛒 Giỏ hàng của bạn</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="cart-empty">
+            <p>Giỏ hàng của bạn đang trống.</p>
+            <a href="/Shop" class="btn luxury-btn-primary">
+                Bắt đầu mua sắm
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table cart-table align-middle">
+                <thead>
+                    <tr>
+                        <th>Hình</th>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td width="120">
+                                <img src="@item.ImageUrl"
+                                     class="cart-img" />
+                            </td>
+
+                            <td class="fw-semibold">
+                                @item.ProductName
+                            </td>
+
+                            <td>
+                                @item.Price.ToString("N0") ₫
+                            </td>
+
+                            <td width="160">
+                                <div class="quantity-box">
+                                    <a asp-action="Decrease"
+                                       asp-route-id="@item.ProductId"
+                                       class="qty-btn">−</a>
+
+                                    <span class="qty-number">
+                                        @item.Quantity
+                                    </span>
+
+                                    <a asp-action="Increase"
+                                       asp-route-id="@item.ProductId"
+                                       class="qty-btn">+</a>
+                                </div>
+                            </td>
+
+                            <td class="fw-bold text-warning">
+                                @((item.Quantity * item.Price).ToString("N0")) ₫
+                            </td>
+
+                            <td>
+                                <a asp-action="Remove"
+                                   asp-route-id="@item.ProductId"
+                                   class="btn btn-sm btn-outline-danger">
+                                    ✕
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="text-end fw-bold">
+                            Tổng tiền:
+                        </td>
+                        <td colspan="2"
+                            class="cart-total">
+                            @((Model.Sum(x => x.Price * x.Quantity)).ToString("N0")) ₫
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="cart-actions">
+            <a href="/Shop" class="btn btn-outline-light">
+                ⬅ Tiếp tục mua sắm
+            </a>
+
+            <a asp-action="Checkout"
+               class="btn luxury-btn-primary ms-2">
+                Thanh toán
+            </a>
+        </div>
+    }
+
+</section>

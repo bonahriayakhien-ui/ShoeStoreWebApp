@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ShoeStoreWebApp.Models.Product>
+
+@if (ViewBag.CategoryName != null)
+{
+    <h3 class="text-center mb-2">
+        Danh mục: <strong>@ViewBag.CategoryName</strong>
+    </h3>
+
+    <div class="text-center mb-4">
+        <a asp-action="Index" class="btn btn-outline-dark">
+            ← Xem tất cả sản phẩm
+        </a>
+    </div>
+}
+
+<h2 class="mb-4 text-center">Danh sách sản phẩm</h2>
+
+<form method="get"
+      asp-action="Index"
+      class="input-group mb-4"
+      style="max-width:400px; margin:auto;">
+    <input type="text"
+           name="search"
+           class="form-control"
+           placeholder="🔍 Tìm kiếm sản phẩm..."
+           value="@ViewBag.Search" />
+    <button class="btn btn-dark" type="submit">
+        Tìm
+    </button>
+</form>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card shadow-sm h-100">
+
+                <img src="@item.ImageUrl"
+                     class="card-img-top"
+                     alt="@item.Name"
+                     style="height:200px; object-fit:cover;" />
+
+                <div class="card-body text-center d-flex flex-column">
+
+                    <h6 class="card-title fw-bold">
+                        @item.Name
+                    </h6>
+
+                    <p class="text-muted"
+                       style="font-size:14px; height:40px; overflow:hidden;">
+                        @((item.Description != null && item.Description.Length > 50)
+                                            ? item.Description.Substring(0, 50) + "..."
+                                            : item.Description)
+                    </p>
+
+                    <p class="text-danger fw-bold mb-3">
+                        @item.Price.ToString("N0") ₫
+                    </p>
+
+                    <a asp-controller="Shop"
+                       asp-action="Detail"
+                       asp-route-id="@item.Id"
+                       class="btn btn-primary btn-sm w-100 mb-2">
+                        Xem chi tiết
+                    </a>
+
+                    <a asp-controller="Cart"
+                       asp-action="AddToCart"
+                       asp-route-id="@item.Id"
+                       class="btn btn-success btn-sm w-100 mt-auto">
+                        🛒 Thêm giỏ hàng
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        }
+</div>

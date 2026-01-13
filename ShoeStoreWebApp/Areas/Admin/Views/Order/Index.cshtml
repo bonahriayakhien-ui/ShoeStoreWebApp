@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ShoeStoreWebApp.Models.Order>
+
+<section class="admin-table-wrapper">
+
+    <div class="admin-table-header">
+        <h2>Quản lý đơn hàng</h2>
+    </div>
+
+    <div class="admin-table-card">
+        <table class="table luxury-table">
+            <thead>
+                <tr>
+                    <th style="width:90px;">Mã</th>
+                    <th>Khách hàng</th>
+                    <th>SĐT</th>
+                    <th>Ngày đặt</th>
+                    <th>Trạng thái</th>
+                    <th style="width:120px;">Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var order in Model)
+                {
+                    string statusClass = order.OrderStatus switch
+                    {
+                        "Completed" => "status-completed",
+                        "Processing" => "status-processing",
+                        "Cancelled" => "status-cancelled",
+                        _ => "status-pending"
+                    };
+
+                    string statusText = order.OrderStatus switch
+                    {
+                        "Pending" => "Chờ xác nhận",
+                        "Processing" => "Đang xử lý",
+                        "Completed" => "Hoàn thành",
+                        "Cancelled" => "Đã hủy",
+                        _ => order.OrderStatus
+                    };
+
+                    <tr>
+                        <td>#@order.Id</td>
+                        <td>@order.CustomerName</td>
+                        <td>@order.Phone</td>
+                        <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td>
+                            <span class="badge @statusClass">
+                                @statusText
+                            </span>
+                        </td>
+                        <td>
+                            <a asp-action="Details"
+                               asp-route-id="@order.Id"
+                               class="btn luxury-btn-secondary btn-sm">
+                                Chi tiết
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</section>

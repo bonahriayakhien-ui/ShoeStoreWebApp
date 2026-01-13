@@ -1,0 +1,1894 @@
+﻿/* =======================
+   LUXURY NAVBAR
+======================= */
+
+.luxury-navbar {
+    background: linear-gradient(90deg, #020617, #0f172a);
+    padding: 0.8rem 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-family: 'Inter', sans-serif;
+}
+
+.luxury-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    color: #f8fafc !important;
+}
+
+    .luxury-brand:hover {
+        color: #c9a227 !important;
+    }
+
+.luxury-link {
+    color: #e5e7eb !important;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem;
+    border-radius: 6px;
+    transition: all 0.25s ease;
+}
+
+    .luxury-link:hover {
+        color: #c9a227 !important;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+/* Dropdown */
+.luxury-dropdown {
+    background-color: #020617;
+    border-radius: 10px;
+    padding: 0.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+    .luxury-dropdown .dropdown-item {
+        color: #e5e7eb;
+        padding: 0.55rem 1rem;
+        border-radius: 6px;
+        transition: all 0.2s ease;
+    }
+
+        .luxury-dropdown .dropdown-item:hover {
+            background-color: rgba(201, 162, 39, 0.15);
+            color: #c9a227;
+        }
+
+/* Mobile toggler */
+.navbar-toggler {
+    filter: invert(1);
+}
+/* =======================
+   LUXURY FOOTER
+======================= */
+
+.luxury-footer {
+    background: linear-gradient(180deg, #020617, #000000);
+    color: #d1d5db;
+    padding: 4rem 0 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2.5rem;
+}
+
+.footer-col h5 {
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #f8fafc;
+}
+
+.footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    color: #c9a227;
+    margin-bottom: 0.8rem;
+}
+
+.footer-desc {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    line-height: 1.6;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .footer-col ul li {
+        margin-bottom: 0.6rem;
+    }
+
+        .footer-col ul li a {
+            color: #9ca3af;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+            .footer-col ul li a:hover {
+                color: #c9a227;
+                padding-left: 4px;
+            }
+
+/* Contact */
+.footer-contact li {
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+/* Divider */
+.luxury-footer hr {
+    border-color: rgba(255, 255, 255, 0.08);
+    margin: 2.5rem 0 1.5rem;
+}
+
+/* Bottom */
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.footer-social a {
+    margin-left: 1rem;
+    color: #9ca3af;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+    .footer-social a:hover {
+        color: #c9a227;
+    }
+/* =======================
+   LUXURY FORM CARD
+======================= */
+
+.card {
+    border-radius: 16px;
+    background: #ffffff;
+}
+
+.card-body {
+    font-family: 'Inter', sans-serif;
+}
+
+.card h4 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+}
+
+.card p.text-muted {
+    font-size: 0.9rem;
+}
+/* =======================
+   LUXURY INPUT
+======================= */
+
+.form-label {
+    font-size: 0.9rem;
+    color: #020617;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 0.6rem 0.85rem;
+    font-size: 0.95rem;
+    border: 1px solid #e5e7eb;
+    transition: all 0.25s ease;
+}
+
+    .form-control:focus {
+        border-color: #c9a227;
+        box-shadow: 0 0 0 0.2rem rgba(201, 162, 39, 0.15);
+    }
+/* =======================
+   LUXURY BUTTON
+======================= */
+
+.btn {
+    border-radius: 999px;
+    padding: 0.45rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+/* Primary */
+.btn-primary {
+    background: linear-gradient(135deg, #c9a227, #a8871e);
+    border: none;
+    color: #020617;
+}
+
+    .btn-primary:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 8px 20px rgba(201, 162, 39, 0.35);
+    }
+
+/* Outline */
+.btn-outline-secondary {
+    border-color: #d1d5db;
+    color: #374151;
+}
+
+    .btn-outline-secondary:hover {
+        background-color: #020617;
+        color: #ffffff;
+        border-color: #020617;
+    }
+/* =======================
+   VALIDATION
+======================= */
+
+.text-danger {
+    font-size: 0.8rem;
+}
+.card:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+/* =======================
+   LUXURY DELETE CARD
+======================= */
+
+.card {
+    border-radius: 18px;
+    background: #ffffff;
+}
+
+.card-body {
+    padding: 2.5rem 2rem;
+}
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+.card strong {
+    color: #020617;
+}
+/* =======================
+   LUXURY DANGER BUTTON
+======================= */
+
+.btn-danger {
+    background: linear-gradient(135deg, #7f1d1d, #991b1b);
+    border: none;
+    color: #ffffff;
+}
+
+    .btn-danger:hover {
+        background: linear-gradient(135deg, #991b1b, #b91c1c);
+        transform: translateY(-1px);
+        box-shadow: 0 10px 25px rgba(153, 27, 27, 0.35);
+    }
+/* =======================
+   LUXURY CANCEL BUTTON
+======================= */
+
+.btn-secondary {
+    background-color: #e5e7eb;
+    border: none;
+    color: #020617;
+}
+
+    .btn-secondary:hover {
+        background-color: #020617;
+        color: #ffffff;
+    }
+/* =======================
+   DELETE PAGE TWEAK
+======================= */
+
+.card h3 {
+    margin-bottom: 1.2rem;
+}
+
+.card p {
+    line-height: 1.7;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+/* =======================
+   EDIT CATEGORY
+======================= */
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+}
+
+.card-body {
+    padding: 2.5rem 2rem;
+}
+.form-control {
+    border-radius: 10px;
+    padding: 0.6rem 0.85rem;
+    border: 1px solid #e5e7eb;
+}
+
+    .form-control:focus {
+        border-color: #c9a227;
+        box-shadow: 0 0 0 0.2rem rgba(201, 162, 39, 0.15);
+    }
+/* =======================
+   EDIT BUTTON
+======================= */
+
+.btn-primary {
+    background: linear-gradient(135deg, #c9a227, #a8871e);
+    border: none;
+    color: #020617;
+}
+
+    .btn-primary:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 8px 20px rgba(201, 162, 39, 0.35);
+    }
+
+.btn-secondary {
+    background-color: #e5e7eb;
+    border: none;
+    color: #020617;
+}
+
+    .btn-secondary:hover {
+        background-color: #020617;
+        color: #ffffff;
+    }
+.card {
+    border-radius: 18px;
+}
+
+    .card:hover {
+        transform: translateY(-2px);
+        transition: all 0.3s ease;
+    }
+/* =======================
+   ADMIN HEADER
+======================= */
+
+.container h3 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+}
+/* =======================
+   LUXURY TABLE CARD
+======================= */
+
+.card {
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 0;
+}
+/* =======================
+   ADMIN TABLE
+======================= */
+
+.table {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+}
+
+    .table thead {
+        background-color: #f8fafc;
+    }
+
+        .table thead th {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #6b7280;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 0.9rem 1rem;
+        }
+
+    .table tbody td {
+        padding: 0.9rem 1rem;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: rgba(201, 162, 39, 0.08);
+}
+/* =======================
+   TABLE BUTTON
+======================= */
+
+.table .btn-sm {
+    border-radius: 999px;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Edit */
+.btn-warning {
+    background: linear-gradient(135deg, #fde68a, #facc15);
+    border: none;
+    color: #020617;
+}
+
+    .btn-warning:hover {
+        box-shadow: 0 5px 15px rgba(250, 204, 21, 0.4);
+    }
+
+/* Delete */
+.btn-danger {
+    background: linear-gradient(135deg, #7f1d1d, #991b1b);
+    border: none;
+}
+
+    .btn-danger:hover {
+        box-shadow: 0 6px 18px rgba(153, 27, 27, 0.45);
+    }
+/* =======================
+   ADD CATEGORY BUTTON
+======================= */
+
+.container > .d-flex .btn-primary {
+    border-radius: 999px;
+    padding: 0.5rem 1.3rem;
+    font-size: 0.9rem;
+    background: linear-gradient(135deg, #c9a227, #a8871e);
+    border: none;
+    color: #020617;
+}
+
+    .container > .d-flex .btn-primary:hover {
+        box-shadow: 0 10px 25px rgba(201, 162, 39, 0.4);
+    }
+/* Subtle row animation */
+.table tbody tr {
+    transition: all 0.2s ease;
+}
+/* =======================
+   ADMIN DASHBOARD
+======================= */
+
+.admin-dashboard {
+    padding: 3rem 1rem;
+    font-family: 'Inter', sans-serif;
+}
+/* =======================
+   DASHBOARD HEADER
+======================= */
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+    .dashboard-header h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        margin-bottom: 0.5rem;
+    }
+
+    .dashboard-header p {
+        color: #6b7280;
+        font-size: 0.95rem;
+    }
+/* =======================
+   DASHBOARD STATS
+======================= */
+
+.dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.8rem;
+    margin-bottom: 3.5rem;
+}
+/* =======================
+   STAT CARD
+======================= */
+
+.stat-card {
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+    border-radius: 20px;
+    padding: 2rem 1.8rem;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(2, 6, 23, 0.08);
+    transition: all 0.3s ease;
+}
+
+    .stat-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 25px 45px rgba(2, 6, 23, 0.15);
+    }
+.stat-card h3 {
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #6b7280;
+    margin-bottom: 0.6rem;
+}
+
+.stat-number {
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #020617;
+    font-family: 'Playfair Display', serif;
+}
+/* =======================
+   DASHBOARD ACTIONS
+======================= */
+
+.dashboard-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+/* =======================
+   DASHBOARD BUTTON
+======================= */
+
+.dashboard-btn {
+    padding: 0.6rem 1.8rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #020617;
+    background: linear-gradient(135deg, #c9a227, #a8871e);
+    transition: all 0.25s ease;
+}
+
+    .dashboard-btn:hover {
+        color: #020617;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(201, 162, 39, 0.4);
+    }
+.stat-card,
+.dashboard-btn {
+    will-change: transform;
+}
+/* =======================
+   ORDER DETAIL
+======================= */
+
+.order-detail-wrapper {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.order-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.5px;
+}
+/* =======================
+   ORDER CARD
+======================= */
+
+.order-card {
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+    border-radius: 20px;
+    padding: 2rem 2.2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 15px 35px rgba(2, 6, 23, 0.08);
+    transition: all 0.3s ease;
+}
+
+    .order-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 25px 45px rgba(2, 6, 23, 0.15);
+    }
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+/* =======================
+   CUSTOMER INFO
+======================= */
+
+.order-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem 2rem;
+    margin-bottom: 1.2rem;
+}
+
+    .order-info-grid p {
+        font-size: 0.95rem;
+        color: #374151;
+    }
+/* =======================
+   ORDER STATUS
+======================= */
+
+.order-status {
+    font-size: 0.95rem;
+}
+
+.badge {
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Status colors */
+.status-pending {
+    background-color: #fde68a;
+    color: #92400e;
+}
+
+.status-processing {
+    background-color: #bfdbfe;
+    color: #1e40af;
+}
+
+.status-completed {
+    background-color: #bbf7d0;
+    color: #065f46;
+}
+
+.status-cancelled {
+    background-color: #fecaca;
+    color: #7f1d1d;
+}
+/* =======================
+   LUXURY TABLE
+======================= */
+
+.luxury-table {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+    .luxury-table thead th {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #6b7280;
+        border-bottom: 1px solid #e5e7eb;
+        padding: 0.9rem;
+    }
+
+    .luxury-table tbody td {
+        padding: 0.9rem;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+    .luxury-table tbody tr:hover {
+        background-color: rgba(201, 162, 39, 0.08);
+    }
+/* =======================
+   ORDER TOTAL
+======================= */
+
+.order-total {
+    margin-top: 1.5rem;
+    font-size: 1.05rem;
+    text-align: right;
+}
+
+    .order-total span {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.4rem;
+        margin-left: 0.5rem;
+        color: #c9a227;
+    }
+/* =======================
+   UPDATE STATUS
+======================= */
+
+.status-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.luxury-select {
+    max-width: 250px;
+    border-radius: 10px;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #e5e7eb;
+}
+
+    .luxury-select:focus {
+        border-color: #c9a227;
+        box-shadow: 0 0 0 0.2rem rgba(201, 162, 39, 0.15);
+    }
+/* =======================
+   ORDER BUTTONS
+======================= */
+
+.luxury-btn-primary {
+    border-radius: 999px;
+    padding: 0.45rem 1.4rem;
+    font-size: 0.9rem;
+    border: none;
+    background: linear-gradient(135deg, #c9a227, #a8871e);
+    color: #020617;
+    transition: all 0.25s ease;
+}
+
+    .luxury-btn-primary:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 25px rgba(201, 162, 39, 0.4);
+    }
+
+.luxury-btn-secondary {
+    border-radius: 999px;
+    padding: 0.45rem 1.4rem;
+    background-color: #e5e7eb;
+    color: #020617;
+    text-decoration: none;
+}
+
+    .luxury-btn-secondary:hover {
+        background-color: #020617;
+        color: #ffffff;
+    }
+/* =======================
+   ADMIN ORDER INDEX
+======================= */
+
+.admin-table-wrapper {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.admin-table-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+    .admin-table-header h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.8rem;
+        letter-spacing: 0.5px;
+    }
+/* =======================
+   TABLE CARD
+======================= */
+
+.admin-table-card {
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+    border-radius: 20px;
+    padding: 0;
+    box-shadow: 0 15px 35px rgba(2, 6, 23, 0.08);
+    overflow: hidden;
+}
+/* =======================
+   LUXURY ADMIN TABLE
+======================= */
+
+.luxury-table {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+    .luxury-table thead th {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #6b7280;
+        background-color: #f8fafc;
+        border-bottom: 1px solid #e5e7eb;
+        padding: 0.9rem 1rem;
+    }
+
+    .luxury-table tbody td {
+        padding: 0.9rem 1rem;
+        border-bottom: 1px solid #f1f5f9;
+        vertical-align: middle;
+    }
+
+    .luxury-table tbody tr {
+        transition: all 0.2s ease;
+    }
+
+        .luxury-table tbody tr:hover {
+            background-color: rgba(201, 162, 39, 0.08);
+        }
+.badge {
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.status-pending {
+    background-color: #fde68a;
+    color: #92400e;
+}
+
+.status-processing {
+    background-color: #bfdbfe;
+    color: #1e40af;
+}
+
+.status-completed {
+    background-color: #bbf7d0;
+    color: #065f46;
+}
+
+.status-cancelled {
+    background-color: #fecaca;
+    color: #7f1d1d;
+}
+/* =======================
+   ORDER ACTION BUTTON
+======================= */
+
+.luxury-btn-secondary {
+    border-radius: 999px;
+    padding: 0.35rem 1rem;
+    background-color: #e5e7eb;
+    color: #020617;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+    .luxury-btn-secondary:hover {
+        background-color: #020617;
+        color: #ffffff;
+    }
+/* =======================
+   UX POLISH
+======================= */
+
+.luxury-btn-secondary,
+.badge {
+    white-space: nowrap;
+}
+/* =======================
+   ADMIN FORM – PRODUCT
+======================= */
+
+.admin-form-wrapper {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.admin-form-card {
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+    border-radius: 22px;
+    padding: 3rem 3rem 2.5rem;
+    box-shadow: 0 20px 45px rgba(2, 6, 23, 0.1);
+    transition: all 0.3s ease;
+}
+
+    .admin-form-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 30px 55px rgba(2, 6, 23, 0.15);
+    }
+/* =======================
+   FORM TITLE
+======================= */
+
+.admin-form-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.5px;
+}
+
+.admin-form-subtitle {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #6b7280;
+    margin-bottom: 2.5rem;
+}
+/* =======================
+   LUXURY INPUT
+======================= */
+
+.luxury-input {
+    border-radius: 12px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.95rem;
+    border: 1px solid #e5e7eb;
+    transition: all 0.25s ease;
+}
+
+    .luxury-input:focus {
+        border-color: #c9a227;
+        box-shadow: 0 0 0 0.2rem rgba(201, 162, 39, 0.15);
+    }
+/* =======================
+   LABEL & ERROR
+======================= */
+
+.form-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #020617;
+}
+
+.text-danger {
+    font-size: 0.8rem;
+}
+/* =======================
+   FILE INPUT
+======================= */
+
+input[type="file"].luxury-input {
+    padding: 0.45rem;
+    cursor: pointer;
+}
+
+    input[type="file"].luxury-input::file-selector-button {
+        border: none;
+        border-radius: 999px;
+        padding: 0.3rem 1rem;
+        background: linear-gradient(135deg, #c9a227, #a8871e);
+        color: #020617;
+        font-size: 0.8rem;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+        input[type="file"].luxury-input::file-selector-button:hover {
+            box-shadow: 0 6px 18px rgba(201, 162, 39, 0.4);
+        }
+/* =======================
+   FORM BUTTONS
+======================= */
+
+.luxury-btn-primary {
+    border-radius: 999px;
+    padding: 0.5rem 1.6rem;
+    font-size: 0.9rem;
+    border: none;
+    background: linear-gradient(135deg, #c9a227, #a8871e);
+    color: #020617;
+    transition: all 0.25s ease;
+}
+
+    .luxury-btn-primary:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 25px rgba(201, 162, 39, 0.45);
+    }
+
+.luxury-btn-secondary {
+    border-radius: 999px;
+    padding: 0.5rem 1.6rem;
+    background-color: #e5e7eb;
+    color: #020617;
+    text-decoration: none;
+}
+
+    .luxury-btn-secondary:hover {
+        background-color: #020617;
+        color: #ffffff;
+    }
+/* =======================
+   UX POLISH
+======================= */
+
+.admin-form .mb-3,
+.admin-form .mb-4 {
+    transition: transform 0.2s ease;
+}
+
+    .admin-form .mb-3:hover,
+    .admin-form .mb-4:hover {
+        transform: translateX(2px);
+    }
+/* =======================
+   DANGER CARD
+======================= */
+
+.danger-card {
+    border: 2px solid rgba(153, 27, 27, 0.25);
+    background: linear-gradient(145deg, #fff5f5, #ffffff);
+}
+/* =======================
+   DELETE WARNING
+======================= */
+
+.text-warning {
+    color: #92400e !important;
+}
+
+.text-danger {
+    color: #991b1b !important;
+}
+/* =======================
+   DELETE INFO BOX
+======================= */
+
+.delete-info-box {
+    background-color: #fef2f2;
+    border-left: 4px solid #991b1b;
+    padding: 1.2rem 1.5rem;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+}
+
+    .delete-info-box p {
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+        color: #374151;
+    }
+/* =======================
+   DANGER BUTTON
+======================= */
+
+.luxury-btn-danger {
+    border-radius: 999px;
+    padding: 0.5rem 1.6rem;
+    font-size: 0.9rem;
+    border: none;
+    background: linear-gradient(135deg, #7f1d1d, #991b1b);
+    color: #ffffff;
+    transition: all 0.25s ease;
+}
+
+    .luxury-btn-danger:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 25px rgba(153, 27, 27, 0.45);
+    }
+/* =======================
+   DANGER UX
+======================= */
+
+.danger-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 30px 55px rgba(153, 27, 27, 0.2);
+}
+/* =======================
+   CURRENT IMAGE
+======================= */
+
+.current-image-box {
+    background-color: #f9fafb;
+    border: 1px dashed #d1d5db;
+    border-radius: 14px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 160px;
+}
+
+    .current-image-box img {
+        max-height: 140px;
+        max-width: 100%;
+        object-fit: contain;
+        border-radius: 12px;
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    }
+/* =======================
+   FORM GROUP
+======================= */
+
+.form-group label {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.form-group .text-danger {
+    font-size: 0.8rem;
+}
+/* =======================
+   EDIT CARD EFFECT
+======================= */
+
+.admin-form-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 28px 60px rgba(0, 0, 0, 0.12);
+}
+/* =======================
+   FORM ACTIONS
+======================= */
+
+.admin-form-wrapper .btn {
+    border-radius: 999px;
+    padding: 0.5rem 1.6rem;
+    font-size: 0.9rem;
+}
+/* =======================
+   ADMIN TABLE WRAPPER
+======================= */
+
+.admin-table-wrapper {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.admin-table-header {
+    margin-bottom: 1.5rem;
+}
+
+    .admin-table-header h2 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+    }
+/* =======================
+   TABLE CARD
+======================= */
+
+.admin-table-card {
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+/* =======================
+   LUXURY TABLE
+======================= */
+
+.luxury-table {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+    .luxury-table thead {
+        background-color: #f9fafb;
+    }
+
+        .luxury-table thead th {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.06em;
+            color: #6b7280;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+    .luxury-table tbody td {
+        vertical-align: middle;
+        padding: 0.85rem 0.75rem;
+        border-top: 1px solid #f1f5f9;
+    }
+
+    .luxury-table tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+        .luxury-table tbody tr:hover {
+            background-color: #f8fafc;
+        }
+    /* =======================
+   PRICE STYLE
+======================= */
+
+    .luxury-table td:nth-child(3) {
+        font-weight: 600;
+        color: #111827;
+    }
+    /* =======================
+   TABLE BUTTONS
+======================= */
+
+    .luxury-table .btn {
+        font-size: 0.75rem;
+        padding: 0.35rem 0.8rem;
+        border-radius: 999px;
+    }
+    .luxury-table tbody tr:hover td {
+        color: #111827;
+    }
+    .luxury-table thead {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+/* =======================
+   CHECKOUT WRAPPER
+======================= */
+
+.checkout-wrapper {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+/* =======================
+   CHECKOUT CARD
+======================= */
+
+.checkout-card {
+    width: 100%;
+    max-width: 520px;
+    background: #ffffff;
+    padding: 2.5rem 2.8rem;
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+}
+/* =======================
+   CHECKOUT TEXT
+======================= */
+
+.checkout-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    letter-spacing: -0.02em;
+}
+
+.checkout-subtitle {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+/* =======================
+   FORM LABEL
+======================= */
+
+.checkout-card .form-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.3rem;
+}
+/* =======================
+   LUXURY INPUT
+======================= */
+
+.luxury-input {
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+    .luxury-input:focus {
+        border-color: #111827;
+        box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.1);
+    }
+/* =======================
+   CHECKOUT BUTTON
+======================= */
+
+.checkout-card .luxury-btn-primary {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.checkout-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+    .checkout-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 35px 70px rgba(0, 0, 0, 0.1);
+    }
+@media (max-width: 576px) {
+    .checkout-card {
+        padding: 2rem 1.8rem;
+    }
+}
+/* =======================
+   CART WRAPPER
+======================= */
+
+.cart-wrapper {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+/* =======================
+   CART TITLE
+======================= */
+
+.cart-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: -0.02em;
+}
+/* =======================
+   EMPTY CART
+======================= */
+
+.cart-empty {
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+    .cart-empty p {
+        font-size: 1rem;
+        color: #6b7280;
+        margin-bottom: 1.5rem;
+    }
+/* =======================
+   CART TABLE
+======================= */
+
+.cart-table {
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+    .cart-table thead {
+        background: #f9fafb;
+    }
+
+        .cart-table thead th {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #6b7280;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+    .cart-table tbody td {
+        padding: 1rem 0.75rem;
+        vertical-align: middle;
+        border-top: 1px solid #f1f5f9;
+    }
+/* =======================
+   CART IMAGE
+======================= */
+
+.cart-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+/* =======================
+   QUANTITY BOX
+======================= */
+
+.quantity-box {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.qty-btn {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    font-weight: 600;
+    color: #374151;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+    .qty-btn:hover {
+        background: #f3f4f6;
+    }
+
+.qty-number {
+    padding: 0 0.8rem;
+    font-size: 0.85rem;
+    min-width: 28px;
+    text-align: center;
+}
+/* =======================
+   CART TOTAL
+======================= */
+
+.cart-total {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #d97706;
+}
+/* =======================
+   CART ACTIONS
+======================= */
+
+.cart-actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+}
+@media (max-width: 768px) {
+    .cart-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .cart-title {
+        font-size: 1.5rem;
+    }
+}
+.cart-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+/* =======================
+   ORDER SUCCESS PAGE
+======================= */
+
+.order-success-wrapper {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.order-success-card {
+    background: #ffffff;
+    padding: 3rem 3.5rem;
+    border-radius: 24px;
+    text-align: center;
+    max-width: 520px;
+    width: 100%;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+    animation: fadeUp 0.6s ease;
+}
+.success-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    letter-spacing: -0.02em;
+}
+
+.success-message {
+    font-size: 0.95rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+.success-actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 576px) {
+    .order-success-card {
+        padding: 2.2rem 1.5rem;
+    }
+
+    .success-title {
+        font-size: 1.5rem;
+    }
+}
+/* =========================================================
+   HOME PAGE – INDEX
+   File  : Views/Home/Index.cshtml
+   Mô tả : Hero, Search, Category, Product Grid
+   ========================================================= */
+
+.luxury-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.luxury-search {
+    margin: 2.5rem auto 2rem;
+    max-width: 520px;
+    display: flex;
+    background: #ffffff;
+    border-radius: 999px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+    .luxury-search input {
+        flex: 1;
+        border: none;
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+        outline: none;
+    }
+
+    .luxury-search button {
+        background: #111827;
+        color: #fff;
+        border: none;
+        padding: 0 1.5rem;
+        font-size: 0.85rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+.hero {
+    position: relative;
+    height: 360px;
+    border-radius: 28px;
+    margin-bottom: 4rem;
+    background: url('/images/hero-shoes.jpg') center / cover no-repeat;
+    overflow: hidden;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1600185365483-26d7a4cc7519") center / cover no-repeat;
+    background-attachment: fixed; /* 👈 HIỆU ỨNG TRƯỢT */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0 0 60px 60px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient( to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0.25) );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+
+    .hero-title span {
+        color: #fbbf24;
+    }
+
+.hero-subtitle {
+    font-size: 0.95rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: #e5e7eb;
+}
+.luxury-section {
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+    letter-spacing: -0.02em;
+}
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+}
+
+.category-card {
+    background: #111827;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    border-radius: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+    .category-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 18px 40px rgba(0,0,0,.25);
+    }
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+.product-card {
+    background: #ffffff;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(0,0,0,.08);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+    .product-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 30px 60px rgba(0,0,0,.15);
+    }
+.product-image {
+    background: #f3f4f6;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+    .product-image img {
+        max-width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+.product-info {
+    padding: 1.2rem;
+    text-align: center;
+}
+
+    .product-info h6 {
+        font-size: 0.95rem;
+        font-weight: 500;
+        margin-bottom: 0.4rem;
+    }
+
+.price {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #d97706;
+    margin-bottom: 0.8rem;
+}
+.view-btn {
+    display: inline-block;
+    padding: 0.45rem 1.4rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 999px;
+    background: #111827;
+    color: #fff;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .hero {
+        height: 280px;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+}
+/* =========================================================
+   PRODUCT DETAIL PAGE
+   File  : Views/Shop/Detail.cshtml
+   Mô tả : Trang chi tiết sản phẩm (image, price, description)
+   ========================================================= */
+.product-detail-card {
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 2.5rem;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+}
+.product-detail-image {
+    background: #f3f4f6;
+    border-radius: 22px;
+    padding: 2rem;
+    text-align: center;
+}
+
+    .product-detail-image img {
+        max-height: 360px;
+        object-fit: contain;
+    }
+.product-title {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.5rem;
+}
+.product-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #d97706;
+    margin-bottom: 0.6rem;
+}
+.product-category {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+    .product-category span {
+        font-weight: 500;
+        color: #111827;
+    }
+.luxury-divider {
+    margin: 1.8rem 0;
+    border-top: 1px solid #e5e7eb;
+}
+.product-desc-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #4b5563;
+}
+.product-actions {
+    display: flex;
+    align-items: center;
+}
+.product-detail-card:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+    .product-detail-card {
+        padding: 1.5rem;
+    }
+
+    .product-title {
+        font-size: 1.6rem;
+    }
+
+    .product-detail-image img {
+        max-height: 260px;
+    }
+}
+/* =========================================================
+   SHOP PAGE – PRODUCT LIST
+   File  : Views/Shop/Index.cshtml
+   Mô tả : Danh sách sản phẩm, search, filter theo danh mục
+   ========================================================= */
+.shop-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+}
+
+.shop-category-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.input-group {
+    border-radius: 999px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+    .input-group .form-control {
+        border: none;
+        padding-left: 1.2rem;
+        font-size: 0.85rem;
+    }
+
+    .input-group .btn {
+        padding: 0 1.2rem;
+    }
+.card {
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+    .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 25px 55px rgba(0,0,0,0.15);
+    }
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-body {
+    padding: 1.2rem;
+}
+
+.card-title {
+    font-size: 0.95rem;
+}
+
+.card-body p {
+    font-size: 0.8rem;
+}
+.card-body .text-danger {
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+}
+.card-body .btn {
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
+.card-body .btn-success {
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    border: none;
+}
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+@media (max-width: 768px) {
+    .shop-title {
+        font-size: 1.5rem;
+    }
+}
+/* ======================================================
+   PRIVACY VIEW (Privacy.cshtml)
+====================================================== */
+.privacy-content h5 {
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.privacy-content p,
+.privacy-content li {
+    color: #555;
+    line-height: 1.7;
+}
+
+.privacy-content ul {
+    padding-left: 20px;
+}
+/* =========================
+   COMMENTS – LUXURY STYLE
+========================= */
+.luxury-comment-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.comment-item {
+    background: #fafafa;
+}
+
+.comment-rating span {
+    font-size: 18px;
+}

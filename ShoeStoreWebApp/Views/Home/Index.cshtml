@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Trang Chủ";
+    var categories = ViewBag.Categories as List<ShoeStoreWebApp.Models.Category>;
+    var products = ViewBag.Products as List<ShoeStoreWebApp.Models.Product>;
+}
+
+<div class="luxury-container">
+
+    <!-- SEARCH -->
+    <form method="get"
+          asp-controller="Shop"
+          asp-action="Index"
+          class="luxury-search">
+        <input type="text"
+               name="search"
+               placeholder="🔍 Tìm kiếm Shoes Store..." />
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content text-center">
+            <h1 class="hero-title">
+                PREMIUM <span>SHOES STORE</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Luxury Sneakers • Limited Edition • Authentic 100%
+            </p>
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="luxury-section">
+        <h2 class="section-title">Danh mục giày</h2>
+
+        <div class="category-grid">
+            @foreach (var item in categories)
+            {
+                <a asp-controller="Shop"
+                   asp-action="Index"
+                   asp-route-categoryId="@item.Id"
+                   class="category-card">
+                    @item.Name
+                </a>
+            }
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="luxury-section">
+        <h2 class="section-title">Sản phẩm mới nhất</h2>
+
+        <div class="product-grid">
+            @foreach (var item in products)
+            {
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="@item.ImageUrl" alt="@item.Name" />
+                    </div>
+
+                    <div class="product-info">
+                        <h6>@item.Name</h6>
+                        <p class="price">@item.Price.ToString("N0") ₫</p>
+
+                        <a asp-controller="Shop"
+                           asp-action="Detail"
+                           asp-route-id="@item.Id"
+                           class="view-btn">
+                            Xem chi tiết
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+
+</div>

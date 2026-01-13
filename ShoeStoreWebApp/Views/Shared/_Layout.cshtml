@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ShoeStoreWebApp</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ShoeStoreWebApp.styles.css" asp-append-version="true" />
+    
+
+
+</head>
+
+<!-- 👉 FIX FOOTER: flex layout cho toàn trang -->
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav class="navbar navbar-expand-sm luxury-navbar sticky-top">
+            <div class="container-fluid">
+
+                <!-- LOGO -->
+                <a class="navbar-brand fw-bold luxury-brand"
+                   asp-area="" asp-controller="Home" asp-action="Index">
+                    👟 PREMIUM SHOES STORE™
+                </a>
+
+                <!-- TOGGLER -->
+                <button class="navbar-toggler border-0"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar"
+                        aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- MENU -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav align-items-center gap-1">
+
+                        <li class="nav-item">
+                            <a class="nav-link luxury-link"
+                               asp-controller="Home"
+                               asp-action="Index">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link luxury-link"
+                               asp-controller="Home"
+                               asp-action="Privacy">
+                                Privacy
+                            </a>
+                        </li>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle luxury-link"
+                                   href="#"
+                                   id="adminDropdown"
+                                   role="button"
+                                   data-bs-toggle="dropdown">
+                                    ⚙ Admin
+                                </a>
+
+                                <ul class="dropdown-menu luxury-dropdown shadow">
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-area="Admin"
+                                           asp-controller="Home"
+                                           asp-action="Index">
+                                            📊 Dashboard
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-area="Admin"
+                                           asp-controller="Category"
+                                           asp-action="Index">
+                                            🗂 Danh mục
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-area="Admin"
+                                           asp-controller="Product"
+                                           asp-action="Index">
+                                            👟 Sản phẩm
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-area="Admin"
+                                           asp-controller="Order"
+                                           asp-action="Index">
+                                            📦 Đơn hàng
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+
+                        <!-- LOGIN -->
+                        <li class="nav-item ms-auto">
+                            <partial name="_LoginPartial" />
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <!-- 👉 flex-fill để đẩy footer xuống đáy -->
+    <main class="flex-fill">
+        @RenderBody()
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="luxury-footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-col">
+                    <h4 class="footer-logo">SHOES STORE™</h4>
+                    <p class="footer-desc">
+                        Premium sneakers – Authentic & Luxury.<br />
+                        Nơi hội tụ những đôi giày đẳng cấp nhất.
+                    </p>
+                </div>
+
+                <!-- Menu -->
+                <div class="footer-col">
+                    <h5>Liên kết</h5>
+                    <ul>
+                        <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                        <li><a asp-controller="Shop" asp-action="Index">Cửa hàng</a></li>
+                        <li><a asp-controller="Home" asp-action="Privacy">Chính sách</a></li>
+                    </ul>
+                </div>
+
+                <!-- Category -->
+                <div class="footer-col">
+                    <h5>Danh mục</h5>
+                    <ul>
+                        <li><a href="#">Sneaker nam</a></li>
+                        <li><a href="#">Sneaker nữ</a></li>
+                        <li><a href="#">Limited Edition</a></li>
+                        <li><a href="#">Best Seller</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-col">
+                    <h5>Liên hệ</h5>
+                    <ul class="footer-contact">
+                        <li>📍 Nha Trang - Khánh Hòa  - Việt Nam</li>
+                        <li>📞 0909 999 999</li>
+                        <li>✉️ support@shoes store.vn</li>                      
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr />
+
+            <div class="footer-bottom">
+                <span>© 2025 ShoeStoreWebApp. All rights reserved.</span>
+
+                <div class="footer-social">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

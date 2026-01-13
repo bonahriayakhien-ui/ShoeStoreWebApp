@@ -1,0 +1,42 @@
+﻿@model ShoeStoreWebApp.Models.Product
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<section class="admin-form-wrapper">
+
+    <div class="admin-form-card danger-card">
+
+        <h2 class="admin-form-title text-danger">
+            Xóa sản phẩm
+        </h2>
+
+        <p class="admin-form-subtitle text-warning">
+            ⚠️ Hành động này không thể hoàn tác. Vui lòng kiểm tra kỹ trước khi xóa.
+        </p>
+
+        <div class="delete-info-box">
+            <p><strong>Tên sản phẩm:</strong> @Model.Name</p>
+            <p><strong>Giá:</strong> @Model.Price.ToString("N0") ₫</p>
+            <p><strong>Danh mục:</strong> @Model.Category?.Name</p>
+        </div>
+
+        <form asp-action="Delete" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="Id" />
+
+            <div class="d-flex gap-2 mt-4">
+                <button type="submit" class="btn luxury-btn-danger">
+                    Xác nhận xóa
+                </button>
+
+                <a asp-action="Index" class="btn luxury-btn-secondary">
+                    Hủy
+                </a>
+            </div>
+        </form>
+
+    </div>
+
+</section>

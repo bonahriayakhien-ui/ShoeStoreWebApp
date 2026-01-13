@@ -1,0 +1,42 @@
+﻿@model ShoeStoreWebApp.Models.Category
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+
+                    <h3 class="mb-4 text-center fw-bold">
+                        ✏️ Sửa danh mục
+                    </h3>
+
+                    <form asp-action="Edit" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label fw-semibold">
+                                Tên danh mục
+                            </label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-center gap-3 mt-4">
+                            <button type="submit" class="btn btn-primary px-4">
+                                💾 Lưu thay đổi
+                            </button>
+
+                            <a asp-action="Index" class="btn btn-secondary px-4">
+                                Quay lại
+                            </a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

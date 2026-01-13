@@ -1,0 +1,90 @@
+﻿@model ShoeStoreWebApp.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<section class="admin-form-wrapper">
+    <div class="admin-form-card">
+
+        <h2 class="admin-form-title">➕ Thêm sản phẩm mới</h2>
+        <p class="admin-form-subtitle">
+            Nhập đầy đủ thông tin để tạo sản phẩm mới
+        </p>
+
+        <form asp-action="Create"
+              method="post"
+              enctype="multipart/form-data"
+              class="admin-form">
+            @Html.AntiForgeryToken()
+
+            <!-- TÊN -->
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Tên sản phẩm</label>
+                <input asp-for="Name"
+                       class="form-control luxury-input"
+                       placeholder="Nhập tên sản phẩm..." />
+                <span asp-validation-for="Name" class="text-danger small"></span>
+            </div>
+
+            <!-- GIÁ -->
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label">Giá (VNĐ)</label>
+                <input asp-for="Price"
+                       class="form-control luxury-input"
+                       placeholder="VD: 1500000" />
+                <span asp-validation-for="Price" class="text-danger small"></span>
+            </div>
+
+            <!-- MÔ TẢ -->
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Mô tả sản phẩm</label>
+                <textarea asp-for="Description"
+                          class="form-control luxury-input"
+                          rows="4"
+                          placeholder="Mô tả ngắn về sản phẩm..."></textarea>
+                <span asp-validation-for="Description" class="text-danger small"></span>
+            </div>
+
+            <!-- DANH MỤC -->
+            <div class="mb-3">
+                <label asp-for="CategoryId" class="form-label">Danh mục</label>
+                <select asp-for="CategoryId"
+                        class="form-select luxury-input"
+                        asp-items="@(new SelectList(ViewBag.CategoryId, "Id", "Name"))">
+                    <option value="">-- Chọn danh mục --</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger small"></span>
+            </div>
+
+            <!-- ẢNH -->
+            <div class="mb-4">
+                <label class="form-label">Ảnh sản phẩm</label>
+                <input type="file"
+                       name="ImageFile"
+                       class="form-control luxury-input"
+                       accept="image/*" />
+                <small class="text-muted">
+                    Chấp nhận JPG, PNG, WebP
+                </small>
+            </div>
+
+            <!-- ACTION -->
+            <div class="d-flex gap-3 justify-content-end">
+                <a asp-action="Index" class="btn luxury-btn-secondary">
+                    ← Quay lại
+                </a>
+
+                <button type="submit" class="btn luxury-btn-primary">
+                    💾 Lưu sản phẩm
+                </button>
+            </div>
+
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

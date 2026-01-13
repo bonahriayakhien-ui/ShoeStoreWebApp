@@ -1,0 +1,98 @@
+﻿@model ShoeStoreWebApp.Models.Order
+
+@{
+    string statusText = Model.OrderStatus switch
+    {
+        "Pending" => "Chờ xác nhận",
+        "Processing" => "Đang xử lý",
+        "Completed" => "Hoàn thành",
+        "Cancelled" => "Đã hủy",
+        _ => Model.OrderStatus
+    };
+}
+
+<section class="order-detail-wrapper">
+
+    <h2 class="order-title">Chi tiết đơn hàng #@Model.Id</h2>
+
+    <!-- CUSTOMER INFO -->
+    <div class="order-card">
+        <h4 class="card-title">Thông tin khách hàng</h4>
+
+        <div class="order-info-grid">
+            <p><strong>Tên:</strong> @Model.CustomerName</p>
+            <p><strong>SĐT:</strong> @Model.Phone</p>
+            <p><strong>Địa chỉ:</strong> @Model.Address</p>
+            <p><strong>Ngày đặt:</strong> @Model.OrderDate.ToString("dd/MM/yyyy HH:mm")</p>
+        </div>
+
+        <p class="order-status">
+            Trạng thái:
+            <span class="badge status-@Model.OrderStatus.ToLower()">
+                @statusText
+            </span>
+        </p>
+    </div>
+
+    <!-- ORDER ITEMS -->
+    <div class="order-card">
+        <h4 class="card-title">Danh sách sản phẩm</h4>
+
+        <table class="table luxury-table">
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderDetails)
+                {
+                    <tr>
+                        <td>@item.Product?.Name</td>
+                        <td>@item.Price.ToString("N0") đ</td>
+                        <td>@item.Quantity</td>
+                        <td>@(item.Price* item.Quantity).ToString("N0") đ</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="order-total">
+            Tổng tiền:
+            <span>
+                @Model.OrderDetails.Sum(x => x.Price * x.Quantity).ToString("N0") đ
+            </span>
+        </div>
+    </div>
+
+    <!-- UPDATE STATUS -->
+    <div class="order-card">
+        <h4 class="card-title">Cập nhật trạng thái</h4>
+
+        <form asp-action="UpdateStatus" method="post" class="status-form">
+            <input type="hidden" name="id" value="@Model.Id" />
+
+            <select name="status" class="form-select luxury-select">
+                <option value="Pending" selected="@("Pending" == Model.OrderStatus)">Chờ xác nhận</option>
+                <option value="Processing" selected="@("Processing" == Model.OrderStatus)">Đang xử lý</option>
+                <option value="Completed" selected="@("Completed" == Model.OrderStatus)">Hoàn thành</option>
+                <option value="Cancelled" selected="@("Cancelled" == Model.OrderStatus)">Đã hủy</option>
+            </select>
+
+            <button type="submit" class="btn luxury-btn-primary">
+                Lưu lại
+            </button>
+        </form>
+    </div>
+
+    <a asp-area="Admin"
+       asp-controller="Order"
+       asp-action="Index"
+       class="btn luxury-btn-secondary mt-3">
+        ← Quay lại danh sách
+    </a>
+
+</section>

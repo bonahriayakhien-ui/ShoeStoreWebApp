@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Checkout";
+}
+
+<section class="checkout-wrapper">
+
+    <div class="checkout-card">
+
+        <h2 class="checkout-title">Thông tin đặt hàng</h2>
+        <p class="checkout-subtitle">
+            Vui lòng nhập đầy đủ thông tin để hoàn tất đơn hàng
+        </p>
+
+        <form asp-action="Checkout" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label class="form-label">Tên khách hàng</label>
+                <input name="customerName"
+                       class="form-control luxury-input"
+                       placeholder="Nhập họ tên..."
+                       required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Số điện thoại</label>
+                <input name="phone"
+                       class="form-control luxury-input"
+                       placeholder="VD: 0909 123 456"
+                       required />
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Địa chỉ giao hàng</label>
+                <textarea name="address"
+                          class="form-control luxury-input"
+                          rows="3"
+                          placeholder="Số nhà, đường, quận, tỉnh..."
+                          required></textarea>
+            </div>
+
+            <button type="submit" class="btn luxury-btn-primary w-100">
+                Xác nhận đặt hàng
+            </button>
+        </form>
+
+    </div>
+
+</section>

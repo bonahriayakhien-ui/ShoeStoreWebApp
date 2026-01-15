@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|d:\\2025\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\shoestorewebapp\\shoestorewebapp\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|solutionrelative:shoestorewebapp\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|d:\\2025\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\shoestorewebapp\\shoestorewebapp\\wwwroot\\images\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|solutionrelative:shoestorewebapp\\wwwroot\\images\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|d:\\2025\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\shoestorewebapp\\shoestorewebapp\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|solutionrelative:shoestorewebapp\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|d:\\2025\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\shoestorewebapp\\shoestorewebapp\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|solutionrelative:shoestorewebapp\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|d:\\2025\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\shoestorewebapp\\shoestorewebapp\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|solutionrelative:shoestorewebapp\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{957BE2B2-2603-4C4A-9D8B-882829124DC7}|ShoeStoreWebApp\\ShoeStoreWebApp.csproj|d:\\2025\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\shoestorewebapp\\shoestorewebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -242,7 +246,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -254,7 +258,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "logo.png",
+              "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\wwwroot\\images\\logo.png",
+              "RelativeDocumentMoniker": "ShoeStoreWebApp\\wwwroot\\images\\logo.png",
+              "ToolTip": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\wwwroot\\images\\logo.png",
+              "RelativeToolTip": "ShoeStoreWebApp\\wwwroot\\images\\logo.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-01-13T09:04:59.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "site.css",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\wwwroot\\css\\site.css",
@@ -266,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Data\\DbInitializer.cs",
@@ -278,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Data\\ApplicationDbContext.cs",
@@ -290,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Controllers\\HomeController.cs",
@@ -302,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Shared\\_LoginPartial.cshtml",
@@ -314,19 +330,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeToolTip": "ShoeStoreWebApp\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T07:50:24.301Z"
+              "WhenOpened": "2025-12-28T07:50:24.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CartItem.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Models\\CartItem.cs",
@@ -338,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Shop\\Detail.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Shop\\Detail.cshtml",
@@ -351,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Home\\Index.cshtml",
@@ -363,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Controllers\\CartController.cs",
@@ -375,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Cart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Cart\\Checkout.cshtml",
@@ -387,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
@@ -399,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Models\\Product.cs",
@@ -411,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Models\\Category.cs",
@@ -423,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ShopController.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Controllers\\ShopController.cs",
@@ -435,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Order\\Details.cshtml",
@@ -447,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Models\\OrderDetail.cs",
@@ -459,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Models\\Order.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Models\\Order.cs",
@@ -471,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Home\\Index.cshtml",
@@ -483,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "20260105135053_UpdateOrderPricePrecision.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20260105135053_UpdateOrderPricePrecision.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20260105135053_UpdateOrderPricePrecision.cs",
@@ -495,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Order\\Index.cshtml",
@@ -507,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "20260105140036_AddCommentAndRating.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20260105140036_AddCommentAndRating.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20260105140036_AddCommentAndRating.cs",
@@ -519,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Models\\Comment.cs",
@@ -531,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "20260105143117_AddReplyComment.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20260105143117_AddReplyComment.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20260105143117_AddReplyComment.cs",
@@ -543,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Category\\Create.cshtml",
@@ -555,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Shared\\_Layout.cshtml",
@@ -567,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Program.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Program.cs",
@@ -579,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -591,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -603,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Home\\Privacy.cshtml",
@@ -615,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Home\\Privacy.cshtml",
@@ -627,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Cart\\Index.cshtml",
@@ -639,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
@@ -651,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
@@ -663,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Shop\\Index.cshtml",
@@ -675,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Success.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Cart\\Success.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Cart\\Success.cshtml",
@@ -687,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -699,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
@@ -711,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Category\\Index.cshtml",
@@ -723,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
@@ -735,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
@@ -747,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -759,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "20251229062114_AddProductDescription.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20251229062114_AddProductDescription.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20251229062114_AddProductDescription.cs",
@@ -771,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "20251228081059_AddProductImage.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20251228081059_AddProductImage.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20251228081059_AddProductImage.cs",
@@ -783,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -795,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "20251228080153_AddOrderStatus.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20251228080153_AddOrderStatus.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20251228080153_AddOrderStatus.cs",
@@ -807,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\appsettings.Development.json",
@@ -819,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\_ViewStart.cshtml",
@@ -831,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\appsettings.json",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\appsettings.json",
@@ -843,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\_ViewImports.cshtml",
@@ -855,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Views\\Shared\\Error.cshtml",
@@ -867,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Models\\ErrorViewModel.cs",
@@ -879,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -891,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "20251226125457_UpdateIdentityWithRoles.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20251226125457_UpdateIdentityWithRoles.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20251226125457_UpdateIdentityWithRoles.cs",
@@ -903,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "20251226122722_AddIdentity.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20251226122722_AddIdentity.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20251226122722_AddIdentity.cs",
@@ -915,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "20251225072846_AddOrderTables.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20251225072846_AddOrderTables.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20251225072846_AddOrderTables.cs",
@@ -927,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "20251223025213_InitialCreate.cs",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Migrations\\20251223025213_InitialCreate.cs",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Migrations\\20251223025213_InitialCreate.cs",
@@ -939,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\2025\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\ShoeStoreWebApp\\ShoeStoreWebApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreWebApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
